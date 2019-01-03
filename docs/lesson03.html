@@ -1,0 +1,470 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lesson 03 : Boolean(bool型)と比較演算子と論理演算子 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lesson04.html" />
+    
+    
+    <link rel="prev" href="lesson02.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="lesson01.html">
+            
+                <a href="lesson01.html">
+            
+                    
+                    Lesson 01 : 出力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="lesson02.html">
+            
+                <a href="lesson02.html">
+            
+                    
+                    Lesson 02 : 計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="lesson03.html">
+            
+                <a href="lesson03.html">
+            
+                    
+                    Lesson 03 : Boolean(bool型)と比較演算子と論理演算子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lesson04.html">
+            
+                <a href="lesson04.html">
+            
+                    
+                    Lesson 04 : 変数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="lesson05.html">
+            
+                <a href="lesson05.html">
+            
+                    
+                    Lesson 05 : 条件分岐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="lesson06.html">
+            
+                <a href="lesson06.html">
+            
+                    
+                    Lesson 06 : 練習問題 条件分岐と変数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lesson07.html">
+            
+                <a href="lesson07.html">
+            
+                    
+                    Lesson 07 : 関数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lesson08.html">
+            
+                <a href="lesson08.html">
+            
+                    
+                    Lesson 08 : ループ処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lesson09.html">
+            
+                <a href="lesson09.html">
+            
+                    
+                    Lesson 09 : 配列とループ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="lesson10.html">
+            
+                <a href="lesson10.html">
+            
+                    
+                    Lesson 10 : Object（オブジェクト）で表現の幅を広げる
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="lesson11.html">
+            
+                <a href="lesson11.html">
+            
+                    
+                    Lesson 11 : JavaScriptとは
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Lesson 03 : Boolean(bool型)と比較演算子と論理演算子</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lesson-03--booleanbool&#x578B;&#x3068;&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;&#x3068;&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;">Lesson 03 : Boolean(bool&#x578B;)&#x3068;&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;&#x3068;&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;</h1>
+<p>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x306B;&#x304A;&#x3044;&#x3066;&#x3001;&#x578B;&#x3068;&#x3044;&#x3046;&#x3082;&#x306E;&#x304C;&#x91CD;&#x8981;&#x306B;&#x306A;&#x3063;&#x3066;&#x304D;&#x307E;&#x3059;&#x3002;<br>Lesson01, 02&#x3067;&#x306F;&#x3001;&#x6587;&#x5B57;&#x5217;(string&#x578B;)&#x3068;&#x6570;&#x5024;(Number&#x578B;)&#x3092;&#x5B66;&#x7FD2;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;<br>Boolean(bool&#x578B;)&#x3068;&#x306F;&#x3001;<code>true</code>(&#x771F;), <code>false</code>(&#x507D;)&#x306E;2&#x3064;&#x3092;&#x8868;&#x73FE;&#x3059;&#x308B;&#x578B;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;<br>&#x4EE5;&#x4E0B;&#x306F;&#x3001;&#x6587;&#x5B57;&#x5217;&#x3067;&#x306F;&#x306A;&#x304F;Boolean&#x3067;&#x3059;&#x3002;</p>
+<pre><code>console.log(true);
+console.log(false);
+</code></pre><h2 id="&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;">&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;</h2>
+<p>&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;&#x3068;&#x306F;&#x3001;2&#x3064;&#x306E;&#x5024;&#x3092;&#x6BD4;&#x3079;&#x308B;&#x70BA;&#x306E;&#x8A18;&#x53F7;&#xFF08;&#x6F14;&#x7B97;&#x5B50;&#xFF09;&#x3067;&#x3001;&#x6BD4;&#x8F03;&#x7D50;&#x679C;&#xFF08;&#x6F14;&#x7B97;&#x7D50;&#x679C;&#xFF09;&#x3092;<code>true</code>&#x307E;&#x305F;&#x306F;<code>false</code>&#x3067;&#x8FD4;&#x3057;&#x3066;&#x304F;&#x308C;&#x307E;&#x3059;&#x3002;<br>&#x4F8B;&#x3048;&#x3070;&#x3001;  </p>
+<ul>
+<li>1&#x3068;1&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x6B63;&#x3057;&#x3044;&#x306E;&#x3067;<code>true</code></li>
+<li>1&#x3068;2&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x9593;&#x9055;&#x3063;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;<code>false</code>
+&#x3068;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;<br>&#x6BD4;&#x8F03;&#x6F14;&#x7B97;&#x5B50;&#x306B;&#x306F;&#x3001; <code>===</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code> &#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;<pre><code>console.log(1 === 1); // -&gt; true
+console.log(1 === 2); // -&gt; false
+console.log(1 &lt; 1); // -&gt; false
+console.log(2 &gt;= 1); // -&gt; true
+</code></pre></li>
+</ul>
+<h2 id="&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;">&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;</h2>
+<h3 id="&#x306F;&#x3001;&#x300C;&#x301C;&#x304B;&#x3064;&#x301C;&#x300D;and"><code>&amp;&amp;</code> &#x306F;&#x3001;&#x300C;&#x301C;&#x304B;&#x3064;&#x301C;&#x300D;(AND)</h3>
+<p><code>true</code>&#x540C;&#x58EB;&#x3092; <code>&amp;&amp;</code> &#x3067;&#x6F14;&#x7B97;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;<code>true</code>&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x304C;&#x3001;&#x3069;&#x3061;&#x3089;&#x304B;&#x304C;<code>false</code>&#x3067;&#x3042;&#x308B;&#x5834;&#x5408;&#x3001;<code>false</code>&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x306F;&#x3001;&#x300C;&#x301C;&#x307E;&#x305F;&#x306F;&#x301C;&#x300D;or"><code>||</code> &#x306F;&#x3001;&#x300C;&#x301C;&#x307E;&#x305F;&#x306F;&#x301C;&#x300D;(OR)</h3>
+<p>&#x4F55;&#x304B;boolean&#x306A;&#x3082;&#x306E;&#x3092; <code>||</code> &#x3067;&#x6F14;&#x7B97;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#xFF11;&#x3064;&#x3067;&#x3082;<code>true</code>&#x3067;&#x3042;&#x308C;&#x3070;<code>true</code>&#x306B;&#x306A;&#x308A;&#x3001;&#x5168;&#x3066;<code>false</code>&#x3067;&#x3042;&#x308C;&#x3070;<code>false</code>&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h3 id="&#x306F;&#x3001;&#x300C;&#x301C;&#x3067;&#x306F;&#x306A;&#x3044;&#x300D;not"><code>!</code> &#x306F;&#x3001;&#x300C;&#x301C;&#x3067;&#x306F;&#x306A;&#x3044;&#x300D;(NOT)</h3>
+<p>boolean&#x306A;&#x3082;&#x306E;&#x306E;&#x5148;&#x982D;&#x306B; <code>!</code> &#x3092;&#x4ED8;&#x4E0E;&#x3059;&#x308B;&#x3068;&#x9006;&#x306E;&#x5024;&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;<code>false</code>&#x306A;&#x3082;&#x306E;&#x3092;<code>true</code>&#x3067;&#x8868;&#x73FE;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x3001;<code>!false</code>&#x3068;&#x3059;&#x308C;&#x3070;<code>true</code>&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x5B9F;&#x969B;&#x306B;&#x66F8;&#x304F;&#x3068;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>console.log(true &amp;&amp; true); // -&gt; true
+console.log(true &amp;&amp; false); // -&gt; false
+console.log(true || false); // -&gt; true
+console.log(!!!true); // -&gt; false
+</code></pre><h2 id="&#x6761;&#x4EF6;&#xFF08;&#x4E09;&#x9805;&#xFF09;&#x6F14;&#x7B97;&#x5B50;">&#x6761;&#x4EF6;&#xFF08;&#x4E09;&#x9805;&#xFF09;&#x6F14;&#x7B97;&#x5B50;</h2>
+<p>&#x6761;&#x4EF6;&#x6F14;&#x7B97;&#x5B50;&#x306F;&#x3001;&#x4F55;&#x304B;&#x306E;&#x6F14;&#x7B97;&#x3057;&#x305F;&#x7D50;&#x679C;&#x3001;&#x6B63;&#x3057;&#x3044;&#x5834;&#x5408;&#x3068;&#x9593;&#x9055;&#x3063;&#x305F;&#x5834;&#x5408;&#x3067;&#x4EFB;&#x610F;&#x306E;&#x7D50;&#x679C;&#x3092;&#x5F97;&#x305F;&#x3044;&#x5834;&#x5408;&#x306B;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;<br>&#x8A18;&#x6CD5;&#x3068;&#x3057;&#x3066;&#x3001; <code>[&#x6F14;&#x7B97;] ? [&#x6B63;&#x3057;&#x3044;&#x5834;&#x5408;&#x306E;&#x5024;] : [&#x9593;&#x9055;&#x3063;&#x305F;&#x5834;&#x5408;&#x306E;&#x5024;]</code> &#x306E;&#x3088;&#x3046;&#x306B;&#x3001;<code>?</code>&#x3068;<code>:</code>&#x3067;&#x8868;&#x73FE;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;  </p>
+<pre><code>console.log(&apos;js&apos; === &apos;j&apos; + &apos;s&apos; ? &apos;this is js&apos; : &apos;this is not js&apos;);
+</code></pre><h3 id="&#x7DF4;&#x7FD2;&#x554F;&#x984C;">&#x7DF4;&#x7FD2;&#x554F;&#x984C;</h3>
+<ul>
+<li>&#x300C;100&#x306F;&#x3001;99&#x3088;&#x308A;&#x5927;&#x304D;&#x3044;&#x300D;(100 &gt; 99)</li>
+<li>&#x300C;100&#x306F;&#x3001;99&#x4EE5;&#x4E0B;&#x300D;(100 &lt;= 99)</li>
+<li>&#x300C;100&#x306F;&#x3001;100&#x4EE5;&#x4E0A;&#x300D;(100 &gt;= 100)</li>
+</ul>
+<h3 id="&#x7DF4;&#x7FD2;&#x554F;&#x984C;2">&#x7DF4;&#x7FD2;&#x554F;&#x984C;2</h3>
+<ul>
+<li>&#x4EE5;&#x4E0B;&#x306E;&#x5B9F;&#x884C;&#x7D50;&#x679C;&#x304C;&#x3069;&#x3046;&#x306A;&#x308B;&#x304B;&#x60F3;&#x50CF;&#x3057;&#x305F;&#x4E0A;&#x3067;&#x5B9F;&#x884C;&#x3055;&#x305B;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;<br>&#x6F14;&#x7B97;&#x5B50;&#xFF08;&#x8A18;&#x53F7;&#xFF09;&#x306B;&#x306F;&#x3001;&#x51E6;&#x7406;&#x3055;&#x308C;&#x308B;&#x512A;&#x5148;&#x9806;&#x4F4D;&#x304C;&#x6C7A;&#x307E;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;<br>&#x307E;&#x305F;&#x3001;&#x4E38;&#x62EC;&#x5F27;()&#x3067;&#x90E8;&#x5206;&#x3092;&#x304F;&#x304F;&#x308B;&#x3068;&#x3001;&#x5168;&#x4F53;&#x306E;&#x4E2D;&#x3067;&#x305D;&#x306E;&#x4E2D;&#x8EAB;&#x304C;&#x307E;&#x305A;&#x51E6;&#x7406;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;  </li>
+</ul>
+<pre><code>console.log(&apos;===&#x306F;&#x3001;&#x53B3;&#x5BC6;&#x306B;&#x7B49;&#x3057;&#x3044;&apos; === &apos;===&#x306F;&#x3001;&#x53B3;&#x5BC6;&#x306B;&#x7B49;&#x3057;&#x3044;&apos;); // true or false?
+
+console.log(3 !== 3.0001); // true or false?
+
+console.log(5 &gt; 4); // true or false?
+
+console.log(5 * 2  &gt;= 5.0 + 5.0); // true or false?
+
+console.log((5 &lt;= 6) === (4 &lt;= 4)); // true or false?
+
+console.log(5 &gt; 4); // true or false?
+
+// &#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x52B9;&#x679C;&#x3092;&#x4F53;&#x9A13;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;
+console.log(true &amp;&amp; true); // true or false?
+
+console.log(3 === 3 || true === false); // true or false?
+
+console.log(!(true || false)); // true or false?
+
+
+// &#x6761;&#x4EF6;&#xFF08;&#x4E09;&#x9805;&#xFF09;&#x6F14;&#x7B97;&#x5B50;
+console.log(!true ? &apos;&#x3053;&#x3061;&#x3089;&#x3067;&#x306F;&#x306A;&#x304F;&apos; : &apos;&#x3053;&#x3061;&#x3089;&#x304C;&#x51FA;&#x529B;&#x3055;&#x308C;&#x308B;&apos;); // &#x3069;&#x3061;&#x3089;&#x304C;&#x51FA;&#x529B;&#x3055;&#x308C;&#x308B;&#xFF1F;
+</code></pre><h3 id="&#x7DF4;&#x7FD2;&#x554F;&#x984C;3-&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x8155;&#x8A66;&#x3057;">&#x7DF4;&#x7FD2;&#x554F;&#x984C;3 &#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x8155;&#x8A66;&#x3057;</h3>
+<ul>
+<li>&#x4EE5;&#x4E0B;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x524D;&#x306B;&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x7D50;&#x679C;&#x306B;&#x306A;&#x308B;&#x304B;&#x4E88;&#x60F3;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;  </li>
+</ul>
+<pre><code>// 3-1
+console.log(false &amp;&amp; true);
+// 3-2
+console.log(true &amp;&amp; false);
+// 3-3
+console.log(false || true);
+// 3-4
+console.log(true || false);
+// 3-5
+console.log(true &amp;&amp; true &amp;&amp; true);
+// 3-6
+console.log(true &amp;&amp; false &amp;&amp; true);
+// 3-7
+console.log((true || false) &amp;&amp; true);
+</code></pre><h2 id="&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x767A;&#x5C55;">&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x767A;&#x5C55;</h2>
+<p>&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x306E;&#x9805;&#x76EE;&#x3067;&#x306F;Boolean&#x578B;&#x540C;&#x58EB;&#x306E;&#x6F14;&#x7B97;&#x3067;&#x3057;&#x305F;&#x304C;&#x3001;&#x5B9F;&#x306F;Boolean&#x578B;&#x4EE5;&#x5916;&#x3082;&#x8AD6;&#x7406;&#x6F14;&#x7B97;&#x5B50;&#x3067;&#x6F14;&#x7B97;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;<br>&#x578B;&#x3092;&#x7D71;&#x4E00;&#x3057;&#x3066;&#x6F14;&#x7B97;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x306F;&#x306A;&#x304F;&#x3001;&#x3069;&#x3093;&#x306A;&#x578B;&#x540C;&#x58EB;&#x3067;&#x3042;&#x3063;&#x3066;&#x3082;&#x6F14;&#x7B97;&#x53EF;&#x80FD;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x4E0B;&#x8A18;&#x306E;&#x7D50;&#x679C;&#x306F;&#x3069;&#x3046;&#x306A;&#x308B;&#x304B;&#x8A66;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</li>
+</ul>
+<pre><code>console.log(true &amp;&amp; &apos;&#x6587;&#x5B57;&#x5217;&apos;);
+console.log(true || &apos;&#x6587;&#x5B57;&#x5217;&apos;);
+console.log(false &amp;&amp; &apos;&#x6587;&#x5B57;&#x5217;&apos;);
+console.log(false || &apos;&#x6587;&#x5B57;&#x5217;&apos;);
+
+console.log(&apos;&#x6587;&#x5B57;&#x5217;&apos; &amp;&amp; true);
+console.log(&apos;&#x6587;&#x5B57;&#x5217;&apos; || true);
+console.log(&apos;&#x6587;&#x5B57;&#x5217;&apos; &amp;&amp; false);
+console.log(&apos;&#x6587;&#x5B57;&#x5217;&apos; || false);
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lesson02.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 02 : 計算">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lesson04.html" class="navigation navigation-next " aria-label="Next page: Lesson 04 : 変数とは？">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lesson 03 : Boolean(bool型)と比較演算子と論理演算子","level":"1.4","depth":1,"next":{"title":"Lesson 04 : 変数とは？","level":"1.5","depth":1,"path":"docs/lesson04.md","ref":"./docs/lesson04.md","articles":[]},"previous":{"title":"Lesson 02 : 計算","level":"1.3","depth":1,"path":"docs/lesson02.md","ref":"./docs/lesson02.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/lesson03.md","mtime":"2019-01-03T13:55:25.947Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-03T13:46:11.578Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

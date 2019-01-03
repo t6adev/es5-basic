@@ -1,0 +1,397 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lesson 06 : 練習問題 条件分岐と変数 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lesson07.html" />
+    
+    
+    <link rel="prev" href="lesson05.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="lesson01.html">
+            
+                <a href="lesson01.html">
+            
+                    
+                    Lesson 01 : 出力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="lesson02.html">
+            
+                <a href="lesson02.html">
+            
+                    
+                    Lesson 02 : 計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="lesson03.html">
+            
+                <a href="lesson03.html">
+            
+                    
+                    Lesson 03 : Boolean(bool型)と比較演算子と論理演算子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lesson04.html">
+            
+                <a href="lesson04.html">
+            
+                    
+                    Lesson 04 : 変数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="lesson05.html">
+            
+                <a href="lesson05.html">
+            
+                    
+                    Lesson 05 : 条件分岐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="lesson06.html">
+            
+                <a href="lesson06.html">
+            
+                    
+                    Lesson 06 : 練習問題 条件分岐と変数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lesson07.html">
+            
+                <a href="lesson07.html">
+            
+                    
+                    Lesson 07 : 関数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lesson08.html">
+            
+                <a href="lesson08.html">
+            
+                    
+                    Lesson 08 : ループ処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lesson09.html">
+            
+                <a href="lesson09.html">
+            
+                    
+                    Lesson 09 : 配列とループ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="lesson10.html">
+            
+                <a href="lesson10.html">
+            
+                    
+                    Lesson 10 : Object（オブジェクト）で表現の幅を広げる
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="lesson11.html">
+            
+                <a href="lesson11.html">
+            
+                    
+                    Lesson 11 : JavaScriptとは
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Lesson 06 : 練習問題 条件分岐と変数</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lesson-06--&#x7DF4;&#x7FD2;&#x554F;&#x984C;-&#x6761;&#x4EF6;&#x5206;&#x5C90;&#x3068;&#x5909;&#x6570;">Lesson 06 : &#x7DF4;&#x7FD2;&#x554F;&#x984C; &#x6761;&#x4EF6;&#x5206;&#x5C90;&#x3068;&#x5909;&#x6570;</h1>
+<p>&#x3053;&#x308C;&#x307E;&#x3067;&#x306E;&#x5185;&#x5BB9;&#x3092;&#x99C6;&#x4F7F;&#x3057;&#x3066;&#x3001;&#x81EA;&#x5206;&#x306E;&#x5E74;&#x4EE4;&#x3092;&#x8A08;&#x7B97;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<h3 id="&#x7DF4;&#x7FD2;&#x554F;&#x984C;">&#x7DF4;&#x7FD2;&#x554F;&#x984C;</h3>
+<ul>
+<li>&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x3092;&#x53C2;&#x8003;&#x306B;&#x6B63;&#x3057;&#x304F;&#x52D5;&#x4F5C;&#x3055;&#x305B;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;<br>&#x6CE8;&#x610F;&#xFF1A;&#x7C21;&#x6613;&#x7684;&#x306A;&#x3082;&#x306E;&#x3092;&#x60F3;&#x5B9A;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x73FE;&#x5728;&#x306E;&#x5E74;&#x3068;&#x8A95;&#x751F;&#x5E74;&#x3092;&#x5F15;&#x304D;&#x7B97;&#x3057;&#x3001;&#x73FE;&#x5728;&#x6708;&#x304C;&#x8A95;&#x751F;&#x6708;&#x4EE5;&#x4E0A;&#x304B;&#x672A;&#x6E80;&#x304B;&#x3067;&#x5224;&#x5B9A;&#x3055;&#x305B;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</li>
+</ul>
+<pre><code>var thisYear; // &#x73FE;&#x5728;&#x306E;&#x897F;&#x66A6;&#x3092;&#x66F8;&#x3044;&#x3066;&#x521D;&#x671F;&#x5316;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+var thisMonth; // &#x73FE;&#x5728;&#x306E;&#x6708;&#x3092;&#x66F8;&#x3044;&#x3066;&#x521D;&#x671F;&#x5316;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+
+var myBirthdayYear; // &#x81EA;&#x8EAB;&#x306E;&#x8A95;&#x751F;&#x5E74;&#x3092;&#x66F8;&#x3044;&#x3066;&#x521D;&#x671F;&#x5316;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+var myBirthdayMonth; // &#x81EA;&#x8EAB;&#x306E;&#x8A95;&#x751F;&#x6708;&#x3092;&#x66F8;&#x3044;&#x3066;&#x521D;&#x671F;&#x5316;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+
+var myAge;
+
+if () { // &#x73FE;&#x5728;&#x306E;&#x6708;&#x3068;&#x8A95;&#x751F;&#x6708;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+ myAge = thisYear - myBirthdayYear;
+} else {
+ // &#x4E0A;&#x306E;&#x6761;&#x4EF6;&#x5206;&#x5C90;&#x4EE5;&#x5916;&#x306E;&#x5834;&#x5408;&#x306E;&#x8A08;&#x7B97;&#x3092;&#x3057;&#x3066;myAge&#x306B;&#x4EE3;&#x5165;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;
+}
+
+console.log(&apos;&#x79C1;&#x306E;&#x5E74;&#x9F62;&#x306F;&#x3001;&apos; + myAge + &apos;&#x6B73;&#x3067;&#x3059;&#x3002;&apos;);
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lesson05.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 05 : 条件分岐">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lesson07.html" class="navigation navigation-next " aria-label="Next page: Lesson 07 : 関数とは？">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lesson 06 : 練習問題 条件分岐と変数","level":"1.7","depth":1,"next":{"title":"Lesson 07 : 関数とは？","level":"1.8","depth":1,"path":"docs/lesson07.md","ref":"./docs/lesson07.md","articles":[]},"previous":{"title":"Lesson 05 : 条件分岐","level":"1.6","depth":1,"path":"docs/lesson05.md","ref":"./docs/lesson05.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/lesson06.md","mtime":"2019-01-03T13:52:17.358Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-03T13:46:11.578Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

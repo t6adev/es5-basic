@@ -1,0 +1,396 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lesson 02 : 計算 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lesson03.html" />
+    
+    
+    <link rel="prev" href="lesson01.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="lesson01.html">
+            
+                <a href="lesson01.html">
+            
+                    
+                    Lesson 01 : 出力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="lesson02.html">
+            
+                <a href="lesson02.html">
+            
+                    
+                    Lesson 02 : 計算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="lesson03.html">
+            
+                <a href="lesson03.html">
+            
+                    
+                    Lesson 03 : Boolean(bool型)と比較演算子と論理演算子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lesson04.html">
+            
+                <a href="lesson04.html">
+            
+                    
+                    Lesson 04 : 変数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="lesson05.html">
+            
+                <a href="lesson05.html">
+            
+                    
+                    Lesson 05 : 条件分岐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="lesson06.html">
+            
+                <a href="lesson06.html">
+            
+                    
+                    Lesson 06 : 練習問題 条件分岐と変数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lesson07.html">
+            
+                <a href="lesson07.html">
+            
+                    
+                    Lesson 07 : 関数とは？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lesson08.html">
+            
+                <a href="lesson08.html">
+            
+                    
+                    Lesson 08 : ループ処理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lesson09.html">
+            
+                <a href="lesson09.html">
+            
+                    
+                    Lesson 09 : 配列とループ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="lesson10.html">
+            
+                <a href="lesson10.html">
+            
+                    
+                    Lesson 10 : Object（オブジェクト）で表現の幅を広げる
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="lesson11.html">
+            
+                <a href="lesson11.html">
+            
+                    
+                    Lesson 11 : JavaScriptとは
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Lesson 02 : 計算</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lesson-02--&#x8A08;&#x7B97;">Lesson 02 : &#x8A08;&#x7B97;</h1>
+<p>&#x56DB;&#x5247;&#x6F14;&#x7B97;&#x3001;&#x5270;&#x4F59;&#x3092;&#x3001;<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>&#x3092;&#x4F7F;&#x3063;&#x3066;&#x8868;&#x73FE;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;<br>&#x4F8B;&#x3048;&#x3070;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>console.log(2+3);// -&gt; 5
+console.log(5-3);// -&gt; 2
+console.log(2*3);// -&gt; 6
+console.log(10/2);// -&gt; 5
+console.log(10%3);// -&gt; 1
+</code></pre><h2 id="&#x6587;&#x5B57;&#x9023;&#x7D50;&#x306B;&#x3064;&#x3044;&#x3066;">&#x6587;&#x5B57;&#x9023;&#x7D50;&#x306B;&#x3064;&#x3044;&#x3066;</h2>
+<p>Javascrip&#x3067;&#x306F;&#x3001;+&#x6F14;&#x7B97;&#x5B50;&#x3067;&#x6587;&#x5B57;&#x9023;&#x7D50;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;
+&#x4F8B;&#x3048;&#x3070;&#x3001;<code>java</code>&#x3068;<code>script</code>&#x3092;&#x7E4B;&#x3052;&#x305F;&#x3044;&#x5834;&#x5408;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x66F8;&#x304F;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<pre><code>console.log(&apos;java&apos; + &apos;script&apos;);
+</code></pre><h3 id="&#x7DF4;&#x7FD2;&#x554F;&#x984C;">&#x7DF4;&#x7FD2;&#x554F;&#x984C;</h3>
+<p>&#x6F14;&#x7B97;&#x5B50;&#xFF08;&#x8A18;&#x53F7;&#xFF09;&#x306B;&#x306F;&#x3001;&#x51E6;&#x7406;&#x3055;&#x308C;&#x308B;&#x512A;&#x5148;&#x9806;&#x4F4D;&#x304C;&#x6C7A;&#x307E;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x8A08;&#x7B97;&#x7D50;&#x679C;&#x304C;0.5&#x306B;&#x306A;&#x308B;&#x3088;&#x3046;&#x306A;&#x8A08;&#x7B97;&#x3092;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;</li>
+<li>&#x56DB;&#x5247;&#x6F14;&#x7B97;&#x5B50;&#x3059;&#x3079;&#x3066;&#x3092;&#x540C;&#x6642;&#x306B;&#x4F7F;&#x3063;&#x3066;&#x8A08;&#x7B97;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#xFF08;<code>2+5*4/2-1</code>, <code>4*6+8-1/2</code>, &#x306A;&#x3069;&#xFF09;</li>
+<li>()&#x3092;&#x8A08;&#x7B97;&#x5F0F;&#x306B;&#x4F7F;&#x3063;&#x3066;&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x52B9;&#x679C;&#x304C;&#x5F97;&#x3089;&#x308C;&#x308B;&#x304B;&#x4F53;&#x9A13;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046; (<code>(2+5)*4/(2-1)</code>, <code>4*(6+8-1)/2</code>, &#x306A;&#x3069;&#xFF09;</li>
+<li><code>&apos;2+3&apos;</code> &#x3092;&#x30B7;&#x30F3;&#x30B0;&#x30EB;&#x30B3;&#x30FC;&#x30C6;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x542B;&#x3081;&#x3066;console.log()&#x3067;&#x51FA;&#x529B;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;</li>
+<li><code>&apos;2+3&apos; + &apos;=5&apos;</code> &#x3092;console.log()&#x3067;&#x51FA;&#x529B;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lesson01.html" class="navigation navigation-prev " aria-label="Previous page: Lesson 01 : 出力">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lesson03.html" class="navigation navigation-next " aria-label="Next page: Lesson 03 : Boolean(bool型)と比較演算子と論理演算子">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lesson 02 : 計算","level":"1.3","depth":1,"next":{"title":"Lesson 03 : Boolean(bool型)と比較演算子と論理演算子","level":"1.4","depth":1,"path":"docs/lesson03.md","ref":"./docs/lesson03.md","articles":[]},"previous":{"title":"Lesson 01 : 出力","level":"1.2","depth":1,"path":"docs/lesson01.md","ref":"./docs/lesson01.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/lesson02.md","mtime":"2018-12-27T05:30:20.300Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-03T13:46:11.578Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
