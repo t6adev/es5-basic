@@ -1,0 +1,13 @@
+{
+  "name": "es5-basic-book",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "gitbook build",
+    "serve": "gitbook serve"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "author": "Tell-y"
+}
