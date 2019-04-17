@@ -69,8 +69,6 @@ console.log(5 * 2  >= 5.0 + 5.0); // true or false?
 
 console.log((5 <= 6) === (4 <= 4)); // true or false?
 
-console.log(5 > 4); // true or false?
-
 // 論理演算子の効果を体験してみましょう。
 console.log(true && true); // true or false?
 
